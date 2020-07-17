@@ -1,0 +1,8 @@
+<!-- Corso di Codifica di Testi 
+     Filename: project.xml
+     Author: Matteo Gallini
+     Date: 01/07/2020 -->
+     
+<!ELEMENT testo (p+, parola)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT parola (#PCDATA)>

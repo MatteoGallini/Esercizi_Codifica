@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- Corso di Codifica di Testi 
+     Filename: project.xml
+     Author: Matteo Gallini
+     /Date: 01/07/2020 -->
+     
+</body>
+ <p>
+<body>
+ </p>
+ <!--
+es2.xml:7: parser error : StartTag: invalid element name
+</body>
+ ^
+es2.xml:7: parser error : Extra content at the end of the document
+</body>
+ ^
+-->

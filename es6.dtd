@@ -1,0 +1,25 @@
+<!-- Corso di Codifica di Testi 
+     Filename: project.xml
+     Author: Matteo Gallini
+     Date: 01/07/2020 -->
+     
+<!ELEMENT TEI (header, facsimile?, text+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT testo (#PCDATA|seg)*>
+<!ELEMENT seg (#PCDATA) >
+<!ATTLIST header  
+            type  CDATA #FIXED "intestazione"
+            land  NMTOKEN #IMPLIED
+>
+<!ATTLIST facsimile  
+            source  #REQUIRED
+            ref  IDREFS #IMPLIED
+>
+<!ATTLIST testo 
+            id  ID #REQUIRED
+            ref CDATA #IMPLIED
+>
+
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- Corso di Codifica di Testi 
+     Filename: project.xml
+     Author: Matteo Gallini
+     Date: 01/07/2020 -->
+
+<htmlCode>
+	<![CDATA[ <h1>Titolo</h1> <h2><b>titoletto</b></h2>]]>
+</htmlCode>

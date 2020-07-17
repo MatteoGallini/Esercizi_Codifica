@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- Corso di Codifica di Testi 
+     Filename: project.xml
+     Author: Matteo Gallini
+     Date: 01/07/2020 -->
+<!DOCTYPE testo SYSTEM "es7.dtd">
+<testo>
+	<p>Ciao</p>
+	<p>Valida</p>
+	<parola>Pane</parola>
+</testo>

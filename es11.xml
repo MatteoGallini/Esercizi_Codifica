@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Corso di Codifica di Testi 
+     Filename: project.xml
+     Author: Matteo Gallini
+     Date: 01/07/2020 -->
+<!--Codificare la lettera di incenzo Bellini a Carlo Pepoli, in Puteaux, 26 giugno 1834 -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xlmns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vincenzo Bellini a Carlo Pepoli, in Puteaux, 26 giugno 1834 </title>
+				<!--formato titolo: mittente a destinatario, in luogo, data di scrittura della lettera -->
+				<author>Vincenzo Bellini</author>
+				<respStmt>
+					<resp>transcription by</resp>
+					<name >Matteo Gallini</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>Digital Edition
+					<date when="2020-07">July 2020</date>
+				</edition>
+				<respStmt>
+					<resp>Encoding by</resp>
+					<name >Matteo Gallini</name>
+				</respStmt>		
+			</editionStmt>
+			<sourceDesc>
+				<title>Vincenzo Bellini a Carlo Pepoli, in Puteaux, 26 giugno 1834</title>
+				<author>Vincenzo Bellini</author>
+				<date when="1834-06-26">26 giugno 1834</date>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body xml:lang="it">
+			<div type="lettera" subtype="manuscript">
+				<opener>
+					<dateline>
+						<date when="1834-06-26"><foreign xml:lang="fra">Juin</foreign> 26</date>
+						<c>:</c>
+						<name type="place"><placeName>Puteaux</placeName><abbr>N</abbr><num>19</num> <foreign xml:lang="fra">bis rampe de</foreign> <placeName>Neuilly</placeName></name>
+					</dateline>
+					<salute>Mio caro <persName>Carluccio</persName></salute>
+				</opener>
+				<p>Avendo <unclear reason="eccentric_ductus">steso</unclear> l'intero duetto</p>
+			</div>
+		</body>
+	</text>
+</TEI>

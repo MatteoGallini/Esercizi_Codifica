@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text>
+	<!--Figlio di text -->
+    <p>il primo xml con validazione</p>
+   <!-- Gemello di p -->   
+    <p>Sibling</p>
+</text>
+<!-- Rimosso secondo text vuoto -->
+

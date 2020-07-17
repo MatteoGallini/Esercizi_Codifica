@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Corso di Codifica di Testi 
+     Filename: project.xml
+     Author: Matteo Gallini
+     Date: 01/07/2020 -->
+<!-- Marcare un testo plain text di circa 3000 caratteri -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xlmns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Il fu Mattia Pascal</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name>Matteo Gallini</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<date>2020-04-07</date>
+				<availability status="restricted"><p></p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<title>Il fu Mattia Pascal</title>
+				<author>Luigi Pirandello</author>
+				<publisher>Mondadori</publisher>
+				<date>1986</date>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	
+	<text>
+	  <body>
+		<div n="cap1" type="chapter">
+			<pb n="1"/>
+			<head>I: Premessa</head>
+			<p n="1"><lb>Una delle poche cose, anzi forse la sola ch’io sapessi di certo era questa: che mi chiamavo <persName>Mattia Pascal</persName>. E mene approfittavo. </lb>
+			<lb>Ogni qual volta qualcuno de’ miei amici o conoscenti dimostrava d’aver perduto il senno fino al</lb>
+            <lb>punto di venire da me per qualche consiglio o suggerimento, mi stringevo nelle spalle, socchiudevo gli occhi</lb>
+            <lb>e gli rispondevo:</lb></p>
+            <p n="2"><q>Io mi chiamo <persName>Mattia Pascal.</persName></q></p>
+            <p n="3"><q>Grazie, caro. Questo lo so.</q></p>
+            <p n="4"><q>E ti par poco?</q></p>
+            <p n="5"><lb>Non pareva molto, per dir la verità, neanche a me. Ma</lb>
+               <lb>ignoravo allora che cosa volesse dire il non sapere neppur questo, il non poter più rispondere, cioè, come prima, all’occorrenza:</lb></p>
+            <p n="6"><q>Io mi chiamo <persName>Mattia Pascal.</persName></q></p>
+            <p n="7"><lb>Qualcuno vorrà bene compiangermi (costa così poco),</lb>
+               <lb>immaginando l’atroce cordoglio d’un disgraziato, al</lb>
+               <lb>quale avvenga di scoprire tutt’a un tratto che… sì, niente, insomma: né padre, né madre, né come fu o come</lb>
+               <lb>non fu; e vorrà pur bene indignarsi (costa anche meno)</lb>
+               <lb>della corruzione dei costumi, e de’ vizii, e della tristezza</lb>
+               <lb>dei tempi, che di tanto male possono esser cagione a un</lb>
+               <lb>povero innocente.</lb></p>
+            <pb n="2"/>
+            <p n="8"><lb>Ebbene, si accomodi. Ma è mio dovere avvertirlo che</lb>
+                     <lb>non si tratta propriamente di questo. Potrei qui esporre,</lb>
+                     <lb>di fatti, in un albero genealogico, l’origine e la discendenza della mia famiglia e dimostrare come qualmente</lb>
+                     <lb>non solo ho conosciuto mio padre e mia madre, ma e gli</lb>
+                     <lb>antenati miei e le loro azioni, in un lungo decorso di</lb>
+                     <lb>tempo, non tutte veramente lodevoli.</lb></p>
+            <p n="9"><lb>E allora?</lb></p>
+            <p n="10"><lb>Ecco: il mio caso è assai più strano e diverso; tanto diverso e strano che mi faccio a narrarlo.</lb>
+                      <lb>Fui, per circa due anni, non so se più cacciatore di topi</lb>
+                      <lb>che guardiano di libri nella biblioteca che un monsignor</lb>
+                      <lb><persName>Boccamazza</persName>, nel <date when="1803">1803</date>, volle lasciar morendo al nostro</lb>
+                      <lb>Comune. È ben chiaro che questo Monsignore dovette </lb>
+                      <lb>conoscer poco l’indole e le abitudini de’ suoi concittadini; o forse sperò che il suo lascito dovesse col tempo e</lb>
+                      <lb>con la comodità accendere nel loro animo l’amore per lo</lb>
+                      <lb>studio. Finora, ne posso rendere testimonianza, non si è </lb>
+                      <lb>acceso: e questo dico in lode de’ miei concittadini. Del</lb>
+                      <lb> dono anzi il Comune si dimostrò così poco grato al <persName>Boccamazza</persName>, che non volle neppure erigergli un mezzo busto pur che fosse, e i libri lasciò per molti e molti anni</lb>
+                      <lb>accatastati in un vasto e umido magazzino, donde poi li</lb>
+                      <lb>trasse, pensate voi in quale stato, per allogarli nella</lb>
+                      <lb>chiesetta fuori mano di <placeName>Santa Maria Liberale</placeName>, non so per</lb>
+                      <lb>qual ragione sconsacrata. Qua li affidò, senz’alcun discernimento, a titolo di beneficio, e come sinecura, a</lb></p>
+            <pb n="3"/>
+            <p n="11">
+				<lb>giorno, stando a guardarli, o anche senza guardarli affatto, ne avesse sopportato per alcune ore il tanfo della</lb>
+				<lb>muffa e del vecchiume.</lb>
+				<lb>Tal sorte toccò anche a me; e fin dal primo giorno io</lb>
+            </p>
+            <p n="12">
+				<lb>Tal sorte toccò anche a me; e fin dal primo giorno io</lb>
+				<lb>o manoscritti (come alcuni antichissimi della nostra biblioteca), che ora non mi sarei mai e poi mai messo a</lb>
+                <lb>scrivere, se, come ho detto, non stimassi davvero strano</lb>
+                <lb>il mio caso e tale da poter servire d’ammaestramento a</lb>
+                <lb>qualche curioso lettore, che per avventura, riducendosi</lb>
+                <lb>finalmente a effetto l’antica speranza della buon’anima</lb>
+                <lb>di monsignor <persName>Boccamazza</persName>, capitasse in questa biblioteca, a cui io lascio questo mio manoscritto, con l’obbligo</lb>
+                <lb>però che nessuno possa aprirlo se non cinquant’anni</lb>
+                <lb>dopo la mia terza, ultima e definitiva morte.</lb>
+                <lb>Giacché, per il momento (e Dio sa quanto me ne duole),</lb>
+                <lb>io sono morto, sì, già due volte, ma la prima per errore,</lb>
+                <lb>e la seconda… sentirete.</lb>
+            </p>
+		</div>
+	  </body>
+	</text>
+</TEI>

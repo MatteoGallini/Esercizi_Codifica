@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Corso di Codifica di Testi 
+     Filename: project.xml
+     Author: Matteo Gallini
+     Date: 01/07/2020 -->
+<!-- Marcare un testo plain text di circa 3000 caratteri -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xlmns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Rune nordiche</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name>Matteo Gallini</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<date>2020-04-07</date>
+				<availability status="restricted"><p></p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a">Rune nordiche</title>
+					</analytic>
+					<monogr>
+						<title level="j">Sentiero runico - Fiordo Bianco</title>
+					</monogr>
+					</biblStruct>					
+			</sourceDesc>
+			<msDesc>
+				<msIdentifier>
+					<idno>es9</idno>
+				</msIdentifier>
+				<additional>
+					<adminInfo>
+						<recordHist>
+							<source xml:base="https://sentierorunico.blogspot.com/p/percorsi-di-crescita_25.html">Rune nordiche</source>
+						</recordHist>
+					</adminInfo>
+				</additional>
+			</msDesc>
+		</fileDesc>
+	</teiHeader>
+	
+	<text>
+	  <body>
+		<div n="1">
+			<pb n="1"/>
+			<p n="1">Le Rune sono state offerte all'umanità per comprendere più profondamente la meraviglia della natura e dell'ambiente per arrivare a una migliore conoscenza di noi stessi, scoprendo il fine nascosto della nostra esistenza personale. Tutto ciò che si manifesta nell'universo della nostra vita è il prodotto di invisibili forze casuali, che sono in attivo a livello subatomico, e le Rune sono gli schemi di queste forze. Forze che generano energie che vengono proiettate verso l'esterno e scorrono nella dimensione che chiamiamo "Tempo". Tutto ciò che esiste è Energia, ossia è qualcosa che ha in sè la possibilità di esprimersi, ma che ancora non è stata messa in atto e che attuarsi deve trovare il suo canale, nel nostro caso il simbolo runico. Ciascuno di noi, come ogni essere vivente è uno schema energetico che ha assunto una forma mantenuta in esistenza da determinate leggi soggette al tempo, quindi molto simile alle energie delle Rune. Le Rune sono configurazione energetiche che precedono la forma, sono un contenitore di forze che rendono possibile uno sviluppo attivo; capirle si comprende come le nostre scelte e le nostre azioni creano la realtà e modellano il futuro. Le Rune non sono nè buone, nè cattive, non hanno valori morali o etici: semplicemente Sono.</p>
+			<p n="2"><q>"Una Runa, nell'insieme è un mistero ed una conoscenza, un segno e un effetto, una lettera alfabetica e un numero, un aspetto del cosmo e una divinità. Le Rune erano segnature degli oggetti, la loro forma essenziale e sintetica, la formula della loro energia specifica, del loro ritmo. Un ritmo identico e pertanto una medesima Rune ha gli oggetti d'una serie (o catena) dall'eguale vibrazione. Una particolare stella, un minerale, un animale, una divinità, una pianta, una parte dell'uomo, che partecipa a una determinata forma ritmica, vengono designati, ed evocati da una figura runica corrispondente."</q></p>
+			<p n="3">Questa è la definizione di <persName>E. Zolla</persName> del <date when="1969">1969</date>.
+			         Le Rune insegnano l'importanza di guardare dentro sè stessi e sperimentare il rapporto tra materia e spirito, fino a giungere alla comprensione che materia, mente e spirito non sono opposti o separati, ma aspetti diversi di una complessa totalità. Potete scoprire quanto siano uno strumento che facilita l'ascolto della vostra saggezza interiore. Risvegliano una comprensione intuitiva e profonda, consentono un facile e diretto accesso a livelli emozionali primari del vostro essere. Esprimono ciò che sta accadendo nella vostra esperienza umana, incanalano vitali potenzialità energetiche che se programmate con uno scopo preciso, operano cambiamenti intelligenti nel mondo materiale.Le Rune sono un mezzo per ritrovare la Luce interiore, là dove nessun uomo è giunto prima, ma dove ogni essere può attingere per creare il proprio futuro. </p>
+		</div>
+	  </body>
+	</text>
+</TEI>

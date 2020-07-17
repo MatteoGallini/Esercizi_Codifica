@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Corso di Codifica di Testi 
+     Filename: project.xml
+     Author: Matteo Gallini
+     Date: 01/07/2020 -->
+<!-- Marcare un testo plain text di circa 3000 caratteri -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xlmns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>LA BESTIA DEL GEVAUDAN</title>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di</resp>
+					<name>Matteo Gallini</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<date>2020-04-07</date>
+				<availability status="restricted"><p></p></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>Francesco Lamendola</author>
+						<title level="a">LA 'BESTIA'  DEL  GÉVAUDAN, ENIGMA IRRISOLTO  DELLA CRIPTOZOOLOGIA</title>
+					</analytic>
+					<monogr>
+						<title level="j">Nuova Italia</title>
+						<imprint>
+							<date when="2020-11-24">2020-11-24</date>
+						</imprint>
+					</monogr>
+					</biblStruct>					
+			</sourceDesc>
+			<msDesc>
+				<msIdentifier>
+					<idno>es10</idno>
+				</msIdentifier>
+				<additional>
+					<adminInfo>
+						<recordHist>
+							<source xml:base="http://www.accademianuovaitalia.it/index.php/scienza-e-societa/criptozoologia/2764-la-bestia-del-gevaudan">LA 'BESTIA'  DEL  GÉVAUDAN, ENIGMA IRRISOLTO  DELLA CRIPTOZOOLOGIA</source>
+						</recordHist>
+					</adminInfo>
+				</additional>
+			</msDesc>
+		</fileDesc>
+	</teiHeader>
+	
+	<text>
+	  <front>
+		  <titlePage>
+			  <doTitle>LA 'BESTIA'  DEL  GÉVAUDAN, ENIGMA IRRISOLTO  DELLA CRIPTOZOOLOGIA</doTitle>
+		  </titlePage>
+		  <byline>
+			  <docAuthor>Francesco Lamendola</docAuthor>
+		  </byline>
+		  <docImptint>
+			  <date when="2020-11-24">2020-11-24</date>
+		  </docImptint>
+	  </front>
+	  <body>
+	    <pb n="1"/>
+	    <p>Fra il <date when="1764">1764</date> e il <date when="1767">1767</date> i boschi e i pascoli della regione del <placeName>Gévaudan</placeName> (corrispondente, più o meno, all'odierno dipartimento della <placeName>Lozère</placeName>, tra le <placeName>Cevenne</placeName> e il massiccio Centrale) più di cento esseri umani vennero uccisi e sbranati da una terribile e inafferrabile 'bestia', che sembrava agire con astuzia più che animale. Neppure l'intervento di un corpo scelto di <term>archibugieri</term><note n="1" place="foot" resp="mg">Soldati armati di archibugio.</note> del <ref target="#LuigiXV"></ref>re, inviati da <rs type="person" xml:id="LuigiXV">Luigi <num>XV</num></rs>, riuscì ad arrestare le stragi. Frattanto serpeggiava e andavano crescendo delle supposizioni, delle voci, secondo le quali la 'bestia' non era non poteva essere solo un grosso lupo o un branco di lupi; molti, troppi indizi portavano ad altre conclusioni, davanti alle quali la ragione pareva arretrare, inorridita.</p>
+	    <list type="simple">
+			<head>Le dimensioni della bestia:</head>
+			<item><num>99</num> centimetri di lughezza</item>
+			<item><num>76.8</num> centimetri di altezza</item>
+			<item>Peso non specificato</item>
+	    </list>
+	  </body>
+	</text>
+</TEI>
